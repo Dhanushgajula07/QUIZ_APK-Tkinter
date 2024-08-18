@@ -9,7 +9,22 @@ quiz_data = [
         "question":"Which symbol is used for comments in Python?",
         "choices":["//", "--", "#", "/**/"],
         "answer": "#"
-    }
+    },
+    {
+        "question": "Which of the following data types is immutable in Python?",
+        "choices": ["List", "Set", "Dictionary", "Tuple"],
+        "answer": "Tuple"
+    },
+    {
+        "question":"Which of the following statements is used to exit from a loop in Python?",
+        "choices": ["Break", "Continue", "Exit", "Stop"],
+        "answer": "Break"
+    },
+    {
+    "question":"Which method is used to remove the last element from a list in Python?",
+    "choices": ["pop()", "remove()", "del()", "clear()"],
+    "answer": "pop()"
+    },
 ]
 
 quiz_data2 = [
@@ -28,5 +43,20 @@ quiz_data2 = [
     "choices": ["Prints a message to the console", " Reads input from the user", 
      "Converts a string to an integer", "Generates random numbers"],
     "answer": "Reads input from the user"
-    }
+    },
+    {
+        "question":"Which of the following is NOT a valid Python operator?",
+    "choices": ["+", "-", "*", "/"],
+    "answer": "/"
+    },
+    {
+      "question":"Which of the following is NOT a valid Python data type?",
+    "choices": ["String", "Integer", "Float", "Boolean"],
+    "answer": "Boolean"  
+    },
+    {
+        "question":"Which of the following is NOT a valid Python loop?",
+    "choices": ["While", "For", "Do-While", "Foreach"],
+    "answer": "Do-While"
+    },
 ]
