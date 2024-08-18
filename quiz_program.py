@@ -128,7 +128,7 @@ def next_question():
 # Create the main window
 root = tk.Tk()
 root.title("Quiz App")
-root.geometry("600x600")
+root.geometry("850x600")
 style = Style(theme="flatly")
 
 # Configure the font size for the question and choice buttons

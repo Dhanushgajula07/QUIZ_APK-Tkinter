@@ -78,7 +78,7 @@ def save_score(username):
 # Create the login window
 login_window = tk.Tk()
 login_window.title("Login")
-login_window.geometry("300x300")
+login_window.geometry("400x400")
 
 # Create labels and entries for username and password
 username_label = tk.Label(login_window, text="Username:", bg="lightblue", fg="black")
@@ -92,7 +92,7 @@ password_entry = tk.Entry(login_window, show="*")
 password_entry.pack(pady=5)
 
 # Create the login button
-login_btn = tk.Button(login_window, text="SAVE", command=login_clicked, bg="lightblue", fg="red")
+login_btn = tk.Button(login_window, text="Login", command=login_clicked, bg="lightblue", fg="red")
 login_btn.pack(pady=10)
 
 # Start the login event loop
